@@ -10,7 +10,7 @@ import numpy as np
 API_BASE_URL = "https://api.github.com"
 REPO_OWNER = "pandas-dev"
 REPO_NAME = "pandas"
-AUTH_HEADER = {"Authorization": "token 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"}
+AUTH_HEADER = {"Authorization": "token VOTRE_TOKEN_GITHUB"}
 
 
 # Fonction pour envoyer des requêtes à l'API GitHub
