@@ -5,6 +5,7 @@
 - A GitHub Personal Access Token with read access to the repository (more information on how to create a token (https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token))
 
 **Usage**
+
 To use this program, follow these steps:
 - Clone or download the repository to your local machine.
 - Install the required libraries by running pip install -r requirements.txt.
@@ -13,6 +14,7 @@ To use this program, follow these steps:
 - The program will retrieve data from the GitHub API, monitor the number of commits made in the past week, and generate different visualizations
 
 **Visualizations** 
+
 The program generates 4 visualizations to provide insights into the activity of the community of contributors:
 - This functions **plot_contributors_data** will display a scatter plot that shows the correlation between the total number of contributors and the number of contributions from each contributor. If the points on the graph are clustered along a diagonal line, it suggests a positive correlation between the two variables, indicating that the number of contributions is indeed correlated with the total number of contributors.
 - This function **plot_contributions_histogram(contributors_data)** is used to plot a histogram of the contributions to the repository by each contributor. The x-axis represents the number of contributions, while the y-axis represents the number of contributors who have made that number of contributions.
